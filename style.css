@@ -1,0 +1,623 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+ 
+
+}
+
+.himno{
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    outline: inherit;
+    cursor: pointer;
+    
+}
+
+
+h1{
+    background: linear-gradient(to right,black,rgb(19, 3, 112),rgb(36, 94, 255),rgb(19, 3, 112),black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center ;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h2{
+    background: linear-gradient(to right,black,rgb(19, 3, 112),rgb(36, 94, 255),rgb(19, 3, 112),black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+
+   
+}
+    a{
+        text-decoration: none;
+    }
+p{
+    text-align:justify;
+   line-height: 120%;
+    
+}
+img{
+    border-radius: 5%;
+    width: 200px;
+}
+.cabecera{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("championsLeague2.jpg");
+    color: whitesmoke;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;   
+}
+.header a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.Inicio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo {
+    padding-left: 7rem;
+    font-family:cursive;
+    font-size: 150%;
+    transition: all 0.2s;
+}
+.menu-icono{
+    display: none;
+    padding: 0;
+    margin-right: 0;
+    border: 0;
+    background: none;
+    font: none;
+    width: 30px;
+    height: 10.8px;
+}
+
+.navegador ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+    .navegador ul li{
+        display: inline-block;
+    }
+        .navegador ul li a{
+            font-family:cursive;
+            display: block;
+            padding: 0.5rem 1.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+            .navegador ul li a:hover{
+                font-size: 115%;
+            }
+
+.main{
+    padding-top: 3rem;
+}
+
+input:focus{
+    border: 2px solid rgb(19, 3, 112);
+    background-color: lightblue;
+    
+}
+
+.footer{
+    color: #7A7A7A;
+    font-size: 80%;
+    font-family:cursive;
+    background: #E0E0E0;
+    padding: 3rem 0;
+    text-align: center;
+    
+
+}
+
+.ladoIzquierdo{
+    float: left;
+    width: 35%;
+    height: 570px;
+   
+}
+    #form1 .ladoIzquierdo{
+        background-color: #01112b;
+        border-radius: 3%;
+        line-height: 1.5rem;
+        color:white;
+    }
+    .ladoIzquierdo input{
+        background-color: lightgray;
+        border-color: lightgray;
+        border-radius: 5%;
+        line-height: 1.2rem;
+        color: #373230;
+        transition: all 0.15s;
+        cursor: pointer;
+    }
+    .ladoIzquierdo input:focus{
+        font-size: 90%;
+    }
+
+.ladoDerecho{
+    float: right;
+    width: 55%;
+
+}
+    .ladoDerecho #select1{
+        background-color: #004e8c;
+        border-radius: 3%;
+        line-height: 1.5rem;
+        color:white;
+       
+    }
+    .ladoDerecho #select1 input{
+        background-color: lightgray;
+        border-color: lightgray;
+        border-radius: 5%;
+        line-height: 1.2rem;
+        color: #373230;
+        cursor: pointer;
+        inline-size: 2rem;
+    }
+
+    .ladoDerecho #select2{
+        background-color: #7a8797;
+        border-radius: 3%;
+        line-height: 1.5rem;
+        color:white;
+       
+    }
+    .ladoDerecho #select2 input{
+        background-color: lightgray;
+        border-color: lightgray;
+        border-radius: 5%;
+        line-height: 1.2rem;
+        color: #373230;
+        cursor: pointer;
+        inline-size: 2rem;
+    }
+
+    .ladoDerecho #select3{
+        background-color: #042454 ;
+        border-radius: 3%;
+        line-height: 1.5rem;
+        color:white;
+    }
+    .ladoDerecho #select3 option{
+        background-color: lightgray;
+        border-color: lightgray;
+        border-radius: 5%;
+        line-height: 1.2rem;
+        color: #373230;
+        transition: all 0.15s;
+        cursor: pointer;
+        inline-size: 2rem;
+        
+    }
+    .ladoIzquierdo input:focus{
+        font-size: 90%;
+    }
+
+.boton{
+    width: 500px;
+    height: 50px;
+    text-align: center ;
+    float: right;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+    .boton:hover{
+        font-size: 90%;
+    }
+    .boton:focus{
+        font-size: 90%;
+    }
+
+fieldset{
+    border: 0px;
+}
+article, aside, section{
+    display:block;
+}
+section{
+    max-width: 900px;
+}
+
+.asid1 .div1{ 
+    color: white;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+    text-align: center;
+}
+.puntoInicio{
+    font-size: 50%;
+}
+article{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 44, 97) ;
+    color: white; 
+}
+
+.tituloArt{
+    background: inherit;
+    -webkit-text-fill-color: inherit;
+    -webkit-background-clip: inherit;
+    text-align: center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.imagenesArt{
+    border-radius: 5%;
+    width: inherit;
+    width: 300px;
+}
+
+.listaArt{
+    padding-right: 25px;
+}
+.personajes{
+   color: aliceblue;
+   font-size: 150%;
+}
+
+ table{
+    background-color: aliceblue;
+    max-width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+    color: #01112b;
+  }
+th,td{
+   padding: 10px;
+  }
+thead{
+   background-color: deepskyblue;
+   border-bottom: solid 5px rgb(0, 39, 211) ;
+   color: white;
+}
+tr :hover {
+    color: rgb(0, 132, 209);
+    background-color: rgb(177, 216, 250);
+ }
+ .articulosLinks
+ {
+    color: rgb(255, 255, 255);
+ }
+ span img{
+    width:  100%;
+ }
+ aside{
+    margin-top: 1.3rem;
+    background:#7a8797;
+    padding-bottom:10px;
+    float: right;
+    border-radius: 10px;
+ } 
+ .videoArt{
+    max-width: 400px;
+ }
+
+ @media only screen and (min-width:1601px) and (max-width:2100px){
+    section{
+        display: inline-block;
+        width: 100%;
+        margin-left: 15%;
+    
+    }
+    aside{
+        display: inline-block;
+        vertical-align: top;
+        width: 18%;
+        height: 6700px;
+    }
+ }
+ 
+ @media only screen and (min-width:1300px) and (max-width:1600px){
+    section{
+        display: inline-block;
+        width: 74%;
+        margin-left: 5%;
+    
+    }
+    aside{
+        display: inline-block;
+        vertical-align: top;
+        width: 23%;
+        height: 6700px;
+    }
+ }
+ @media only screen and (min-width:1026px) and (max-width:1299px){
+    section{
+        display: inline-block;
+        width: 74%;
+    }
+    aside{
+        display: inline-block;
+        vertical-align: top;
+        width: 23%;
+        height: 6700px;
+    }
+ }
+
+ @media only screen and (min-width:901px) and (max-width:1025px){
+    section{
+        display: inline-block;
+        width: 74%;
+        margin-left: inherit;
+    }
+    aside{
+        display: inline-block;
+        vertical-align: top;
+        width: 23%;
+        height: 7000px;
+    }
+    aside h2{
+        font-size: 120%;
+    }
+    aside b{
+        font-size: 90%;
+    }
+    aside p{
+        font-size: 90%;
+    }
+ }
+
+ @media only screen and (min-width:600px) and (max-width:900px){
+    section{
+        display: inline-block;
+        width: 63%;
+        margin-left: inherit;
+    }
+        section .tab1 #main-containertabla{
+            padding: inherit;
+            padding-left: 0;
+            max-width: inherit;
+            max-width: 40%;
+            margin: inherit;
+            margin: 0;
+        }
+        table{
+            max-width: inherit;
+            font-size: 70%;
+        }
+    .videoArt{
+        width: inherit;
+        width: 280px;
+    }
+    aside{
+        padding-top: 3rem;
+        display: inline-block;
+        vertical-align: top;
+        width: 35%;
+        height: 7180px;
+    }
+    aside h2{
+        font-size: 120%;
+    }
+    aside b{
+        font-size: 90%;
+    }
+    aside p{
+        font-size: 90%;
+    }
+    
+    .menu-icono{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem;
+        font-size: 150%;
+    }
+    .navegador {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegador ul {
+        display: none;
+    }
+  
+    .navegador ul.show {
+        display: block;
+    }
+        .navegador ul li{
+            display: block;
+        }
+            .navegador ul li a{
+                font-family:cursive;
+                display: block;
+                padding: 0.5rem 0;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+                .navegador ul li a:hover{
+                    font-size: 115%;
+                }
+ }
+
+ 
+ @media only screen and (min-width:483px) and (max-width:599px){
+    section{
+        margin-left: inherit;
+    }
+        section .tab1 #main-containertabla{
+            padding: inherit;
+            padding-left: 0;
+            max-width: inherit;
+            max-width: 40%;
+            margin: inherit;
+            margin: 0;
+        } 
+    table{
+        max-width: inherit;
+        font-size: 40%;
+    }   
+    .articulos{
+        padding-top: 3rem;
+    }
+    
+    .menu-icono{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem;
+        font-size: 150%;
+    }
+    .navegador {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegador ul {
+        display: none;
+    }
+  
+    .navegador ul.show {
+        display: block;
+    }
+        .navegador ul li{
+            display: block;
+        }
+            .navegador ul li a{
+                font-family:cursive;
+                display: block;
+                padding: 0.5rem 0;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+                .navegador ul li a:hover{
+                    font-size: 115%;
+                }
+    #botonEnvForm{
+        width: inherit;
+        width: 300px;
+    }
+
+    .ladoIzquierdo{
+        float: left;
+        width: 100%;
+        height: 570px;
+        font-size: 100%;
+       
+    }
+       
+    .ladoDerecho{
+        float: left;
+        width: inherit;
+        width: 100%;
+        font-size: 100%;
+    }
+}
+
+ @media only screen and (min-width:200px) and (max-width:482px){
+    section{
+        margin-left: inherit;
+    }
+    section .imagenesArt{
+        width: inherit;
+        width: 200px;
+
+    }
+    table{
+        max-width: inherit;
+        font-size: 40%;
+    }
+    .videoArt{
+        width: inherit;
+        width: 200px;
+    }
+    section .tab1 #main-containertabla{
+        padding: inherit;
+        padding-left: 0;
+        max-width: inherit;
+        margin: inherit;
+        margin: 0;
+    }   
+    .articulos{
+        padding-top: 3rem;
+    }
+    
+    .menu-icono{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem;
+        font-size: 150%;
+    }
+    .navegador {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegador ul {
+        display: none;
+    }
+  
+    .navegador ul.show {
+        display: block;
+    }
+        .navegador ul li{
+            display: block;
+        }
+            .navegador ul li a{
+                font-family:cursive;
+                display: block;
+                padding: 0.5rem 0;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+                .navegador ul li a:hover{
+                    font-size: 115%;
+                }
+    #botonEnvForm{
+        width: inherit;
+        width: 200px;
+    }
+
+    .ladoIzquierdo{
+        float: left;
+        width: 90%;
+        height: 570px;
+        font-size: 100%;
+       
+    }
+       
+    .ladoDerecho{
+        float: left;
+        width: inherit;
+        width: 90%;
+        font-size: 100%;
+    
+    }
+    .formTextH1{
+        text-align: center ;
+        font-size: inherit;
+        padding-top: inherit;
+        padding-top: 3rem;
+        font-size: 140%;
+        
+    }
+    .formText{
+        text-align: center ;
+        font-size: inherit;
+        padding-top: inherit;
+    }
+ }
+
+
